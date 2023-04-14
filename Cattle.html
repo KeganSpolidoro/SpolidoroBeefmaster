@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Cattle</title>
+</head>
+<body id = "CattleBody">
+    <div class="navbar">
+        <img src = "pics/Farm-logo-white.png" class = "logoNav" >
+        <ul>
+            <li><a href = "/FARM/index.html">Home</a></li>
+            <li><a href = "Mission.html">Our Mission</a></li>
+            <li><a href = "Cattle.html">Cattle</a></li>
+            <li><a href = "index.html#footer" onclick="setFocusToFooter()">Contact us</a></li>
+        </ul>
+    </div> 
+    <div class="CowContaier" id = "130095">
+        <div class="CCimg">
+            <span>SPB130095 our Platinum cow</span>
+            <img src = "pics/130095.jpg" class = "slide">
+        </div>
+        <div class="CCInfo">
+            <div class ="CCinfoText">
+                <div class = "ccpp">
+                    <P>This is our Cow SPB130095 which in 2023 was awarded
+                        one of SA Stud Book's Elite Platinum cows for exceptional production,
+                        reproduction and genetic merit standards from the Logix Beef database.<br><br>
+                        Below are the performance figures for this cow:
+                    </P>
+                </div>
+                <div class = "stats" title = "Click to View">
+                    <img src = "pics/130095stats.png.png" alt = "130095 stats" >
+                </div>
+            </div>
+        </div> 
+        <div class = "holder">
+            <div class="image-gallery">
+                <img src="pics/letterPlatinum.png" onclick="showImage(this)" alt="Image 1">              
+            </div>
+        </div>
+    </div>
+<div class="BullContaier" id = "180031">
+        <div class="heading">
+            <span>Below is a prime example our true bloodline</span>
+        </div>
+        <div class="Bulle">
+        <div class="B1">
+            <span>GrandFather SPB130281</span>
+            <img src = "pics/13281.png" alt = "130281" class = "Boys">
+        </div>
+        <div class="B1">
+            <span>Father SPB180031</span>
+            <img src = "pics/1831.jpeg" alt = "180031" class = "Boys">
+        </div>  
+        <div class="B1">
+            <span>Son SPB220011 Mother SPB130095</span>
+            <img src = "pics/220011.jpeg" alt = "220011" class = "Boys">
+        </div>
+    </div>
+</div>
+    <div class="image-popup" onclick="hideImage()">
+        <span class="image-popup-close">&times;</span>
+        <img class="image-popup-content" src="" alt="Full-size Image">
+    </div>
+          
+    </div>
+    <script type = "text/javascript" src = "js/Cattle.js"></script>
+</body>
+</html>

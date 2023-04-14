@@ -1,0 +1,425 @@
+#indexbody{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),
+    rgba(16, 16, 16, 0.71)), url(../pics/backgroundcows.jpg);
+    background-size: cover;
+    background-position: center;
+}
+/* ================== navbar ===================== */
+.navbar{
+    margin-top: 2%;
+    width: 100%;
+    column-gap: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-flex;
+    margin: 1rem;
+    flex-direction: row;
+    justify-content: center;
+    transform: translateY(-2rem);
+    transform: translateX(-4rem);
+}
+.navbar ul li a{
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+.navbar ul li a:hover{
+    color:#15532d;
+}
+.logoNav{
+    width: 19rem;
+    height: 14rem;
+}
+h1{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 3.75rem;
+    transform: translateY(-2rem);
+}
+h2{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 2.5rem;
+}
+/*================= portrait ================ */
+.portrait{
+    width: 100%;
+    height: 17%;
+    display: flex;
+    /* background-color: #000000; */
+}
+.portrait_img{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    background-size: contain;
+    flex-direction: column;
+}
+.portrait_img img{
+    height: 17em;
+    object-fit: contain;
+}
+.portrait_info{
+    width: 70%;
+    height: 100%;
+    font-size: 1.3rem;
+    /* background-color: rgba(255, 255, 255, 0.543); */
+    border-radius: 0.6rem;
+    padding-left: 0.6rem;
+    color: rgb(255, 255, 255);
+    position: relative;
+}
+.btnmission{
+    width: 7.5rem;
+    height: 2rem;
+    background-color: #ffffff;
+    color: #000000;
+    font-size: 1rem;
+    border-radius: 0.3rem;
+    font-family: 'Times New Roman', Times, serif;
+    cursor: pointer;
+}
+#beeflogo{
+    width: 100%;
+    height: 4rem;
+}
+.logo{
+   display: flex;
+   width: 100%;
+   height: 20%;
+   justify-content: left;
+   margin-top: -2%;
+}
+/* ======================= achievements ================= */
+.Ashelf{
+    width: 100vw;
+    height: 20%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.FShelf{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.Item{
+    width: 45%;
+    height: 60%;
+    /* background-color: rgba(255, 255, 255, 0.562); */
+    padding: 0.6rem;
+    text-align: center;
+    position: relative;
+}
+#Cert{
+    width: 30%;
+    height: 30%;
+    /* background-color: rgba(255, 255, 255, 0.562); */
+    padding: 0.6rem;
+    text-align: center;
+    position: relative;  
+}
+#ccert{
+    width: 100%;
+    height: 25%;
+    object-fit: fill;
+    object-position: center;
+    text-align: center; 
+}
+.ItemF{
+    width: 25%;
+    height: 50%;
+    /* background-color: rgba(255, 255, 255, 0.562); */
+    padding: 0.6rem;
+    text-align: center;
+    position: relative;
+}
+.h4{
+    text-align: center;
+    color: #ffffff;
+    font-size: 1rem;
+}
+.redirect{
+    position: absolute;
+    text-align: center;
+    color: white;
+}
+.Ashelf a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+    flex-basis: 25%;
+}
+.Item img{
+    width: 100%;
+    height: 30vw;
+    object-fit: cover;
+    object-position: center;
+    text-align: center;
+}
+.Item :hover {
+    transform: scale(1.05);
+}
+.ItemF img{
+    width: 100%;
+    height: 80%;
+    object-fit: contain;
+    object-position: center;
+    text-align: center;
+}
+.ItemF :hover {
+    transform: scale(1.05);
+}
+
+.divider{
+    width: 100%;
+    height: 20px;
+}
+/* ===================== Footer ================ */
+.footer{
+    margin-top: 1%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 100%;
+    height: fit-content;
+    background-color: rgb(16, 16, 16);
+    color: white;
+    text-align: center;
+}
+.footer p{
+    font-size: 1.2rem;
+}
+/* ++++++++++++++++++++++ MISSION ++++++++++++++++++++++ */
+#Missionbody{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),
+    rgba(16, 16, 16, 0.71)), url(../pics/group_cows.jpeg);
+    background-size: cover;
+    background-position: center;  
+    background-repeat: no-repeat;
+}
+.container{
+    width: 100%;
+    height: 100%;
+    color: white;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    transform: translateY(-10%);
+    padding: 0.6rem; 
+}
+.mission-desc{
+    width: 70%;
+    height: 100%;
+    font-size: 1.1rem;
+    
+}
+.slidebox{
+    margin-top: 3%;
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.image{
+    width: 22rem;
+    height: 19rem;
+    padding: 0.6rem;
+    display: flex;
+    justify-content: center;
+    flex-basis: 33.33%;
+}
+.image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
+    text-align: center;
+}
+h3{
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+}
+/* +++++++++++++++++++ CATTLE +++++++++++++++++ */
+#CattleBody{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),
+    rgba(16, 16, 16, 0.71)), url(../pics/PHOTO-2023-04-11-17-07-30.jpg);
+    background-size: cover;
+    background-position: center;  
+    background-repeat: no-repeat; 
+}
+.CowContaier{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row; /*change */
+    background-color: rgba(255, 255, 255, 0.731);
+    margin-bottom: 0.5rem;
+}
+.CCimg{
+    width: 100%;
+    height : 15%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 1.5rem;
+}
+.CCimg span{
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+.CCInfo{
+    width: 70%;
+    height : 50%; 
+    color: rgb(0, 0, 0);
+    font-size: 1rem;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 0.6rem 0.6rem;
+    font-weight: 300;
+    display: flex;
+    flex-direction: row; /*change*/
+    text-align: center;
+}
+.CCInfo a{
+    font-size: 1rem;
+}
+.CCimg img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    text-align: center;
+    margin-top: 1rem; /*Change*/
+}
+.holder{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+.image-gallery {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }  
+  .image-gallery img {
+    width: 100%;
+    height: 15rem;
+    object-fit: contain;
+  }
+  .image-gallery p{
+    font-size: 0.75rem;
+    color: rgb(0, 0, 0) ;
+  }
+.image-popup {
+display: none;
+position: fixed;
+z-index: 1;
+left: 0;
+top: 0;
+width: 100%;
+height: 100%;
+overflow: auto;
+background-color: rgba(0, 0, 0, 0.8);
+}
+  
+.image-popup-content {
+display: flex;
+max-width: 70%;
+max-height: 100%;
+float: inline-start;
+}
+.image-popup img{
+width : 100rem;
+height: 100rem;
+object-fit: contain;
+object-position: center;
+}
+
+.image-popup-close {
+color: #fff;
+float: inline-end;
+font-size: 5rem;
+font-weight: bold;
+cursor: pointer;
+}
+  
+.image-popup-close:hover,
+.image-popup-close:focus {
+color: #f00;
+text-decoration: none;
+cursor: pointer;
+}
+  
+.stats{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    padding-top: 0.6rem;
+    
+}
+.stats img{
+    width : 90%;
+    height: 90%;
+    object-fit: contain;
+}
+.ccpp{
+    width: 100%;
+    height: fit-content;
+}
+.CCinfoText{
+    width: 21rem;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.BullContaier{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.731);
+    justify-content: space-evenly;
+    text-align: center;
+}
+.B1{
+    width: 21rem;
+    height: 15rem;
+    margin-bottom: 1rem;
+}
+.Boys{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    text-align: center;
+}
+.heading{
+    width: 100%;
+    height: 10%;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+.Bulle{
+    width: 100%;
+    height: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center;
+    flex-wrap: wrap;
+}
