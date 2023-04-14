@@ -12,12 +12,15 @@ function checkmobile(){
     const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
         if (isMobile) {
             const items = document.getElementsByClassName("ItemF");
+             const bulle = document.getElementsByClassName("Item");
             const cert = document.getElementById("Cert");
+            
             document.getElementById("beeflogo").style.marginTop = "-5rem";
             cert.style.flexBasis = "50%";
 
             for (let i = 0; i < items.length; i++) {
                 items[i].style.flexBasis = "50%";
+                bulle[i].style.flexBasis = "50%";
             }
         }
 }
